@@ -63,7 +63,6 @@ $array_prodotti = [
 
 var_dump($array_prodotti);
 
-$ordine1 = new Ordine
- ($array_prodotti);
+$ordine1 = new Ordine ($array_prodotti);
 
 var_dump($ordine1);
