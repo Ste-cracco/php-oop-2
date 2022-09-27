@@ -3,6 +3,7 @@
 include_once __DIR__. '/Classi/PetFood.php';
 include_once __DIR__. '/Classi/PetDress.php';
 include_once __DIR__. '/Classi/PetGame.php';
+include_once __DIR__. '/Classi/Ordine.php';
 
 
 $crocchette = new PetFood(
@@ -50,3 +51,23 @@ $pallina = new PetGame(
     ]
 );
 var_dump($pallina);
+
+
+$array_prodotti = [
+    [
+        $crocchette
+    ],
+    [
+        $carne
+    ],
+    [
+        $pallina
+    ],
+];
+
+var_dump($array_prodotti);
+
+$ordine1 = new Ordine
+ ($array_prodotti);
+
+var_dump($ordine1);
