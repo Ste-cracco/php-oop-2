@@ -12,7 +12,7 @@ class Ordine {
 
     public function getPrezzoFinale($array) {
         for($i=0; $i < count($array); $i++) {
-            $this->prezzo_totale = $array['prezzo'] * $array['quantita'];
+            $this->prezzo_totale = $array->prezzo * $array->quantita;
         }
     }
 }

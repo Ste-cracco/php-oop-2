@@ -54,15 +54,11 @@ var_dump($pallina);
 
 
 $array_prodotti = [
-    [
-        $crocchette
-    ],
-    [
-        $carne
-    ],
-    [
-        $pallina
-    ],
+    
+    $crocchette,
+    $carne,   
+    $pallina
+    
 ];
 
 var_dump($array_prodotti);
