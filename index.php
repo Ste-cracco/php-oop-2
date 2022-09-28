@@ -11,7 +11,7 @@ $crocchette = new PetFood(
         'nome' => 'Crocchette di Manzo',
         'descrizione' => 'Lorem ipsum lorem ipsum',
         'prezzo' => 19.99,
-        'quantita' => 3,
+        'quantita' => 3.2,
         'volume' => 15,
         'scadenza' => '13/12/2024',
         'codice_spedizione' => 'AHSJCB4UCI35'
@@ -25,7 +25,7 @@ $carne = new PetFood(
         'descrizione' => 'Lorem ipsum lorem ipsum',
         'prezzo' => 29.99,
         'volume' => 40,
-        'quantita' => 2,
+        'quantita' => 2.2,
         'scadenza' => '03/11/2023',
         'codice_spedizione' => 'AHSJCB4UCI34'
     ]
